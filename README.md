@@ -1,2 +1,5 @@
 # MVNet
 Minimum Variance Representation Learning
+
+## Abstract
+Despite the numerous advantages of surface enhanced Raman spectroscopy (SERS), it is still considered to be poorly reproducible and not a sufficiently robust analytical technique for routine implementation outside of academia. Here, we report the application of deep learning to minimize the variance of SERS measurements by multiple laboratories on the same target analyte. The linear regression model trained using the output of the proposed MVNet showed improved performance in predicting the concentration of the unseen target analyte. The evaluation of model is performed by several well known metrics such as Root Mean Square Error of Prediction (RMSEP), BIAS, Standard Error of Prediction (SEP) and Coefficient of Determination ($R^2$). The Leave-One-LAB-Out Cross-Validation (LOLABO CV) results showed that the proposed MVNet can also minimize variance of completely unseen laboratory dataset, while improve reproducibility and linear fit of multivariate linear regression model. The code for the analysis is on the author's Github page (http://github.com/psychemistz/MVNet).
