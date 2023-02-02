@@ -17,6 +17,4 @@ Compared to raw data embeddings in PC1 and PC2 spaces, MVNet output is centered 
 ## Comparison of output spectra
 MVNet output results in similar spectra for the same concentrations, albeit with some roughness due to the nonlinear nature of neural networks.
 
-<p align="center">
-![](https://github.com/psychemistz/MVNet/blob/main/Figures/Figure7.png?raw=true)
-</p>
+![](https://github.com/psychemistz/MVNet/blob/main/Figures/Figure7.png?raw=true, position='center')
