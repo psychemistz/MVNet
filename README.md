@@ -7,4 +7,5 @@ Surface Enhanced Raman Scattering (SERS) spectroscopy is still considered poorly
 ## Graphical illustration
 ![](https://github.com/psychemistz/MVNet/blob/main/Figures/Figure1.png?raw=true)
 
-
+## PCA visualization of MVNet output
+![](https://github.com/psychemistz/MVNet/blob/main/Figures/Figure3.png?raw=true)
