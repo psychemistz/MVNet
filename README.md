@@ -1,3 +1,6 @@
+#How to use
+
+
 # MVNet
 Minimum Variance Representation Learning
 
