@@ -5,7 +5,7 @@ Surface Enhanced Raman Scattering (SERS) spectroscopy is still considered poorly
 ## How to use MVNet (Minimum Variance Representation Learning) Network?
 The proposed MVNet is a variation minimization method trained on a large-scale European multi-instrument interlaboratory SERS dataset [1]. The dataset is freely available at https://zenodo.org/record/3572359#.Y863YnbMJaQ. The network can be used for both the pre-processing and post processing in concentration prediction linear regression modelling. 
 ![](https://github.com/psychemistz/MVNet/blob/main/Figures/Figure2.png?raw=true)
-Abovew figure illustrate the data processing pipeline and architecture of the proposed MVNet. (a) MVNet (without concentration level constraint) as a post processing tool for LOESS normalized spectra for regression modeling, (b) MVNet (with concentration level constraint) is used as post-processing tool for EMSC based baseline corrected spectra for regression modeling.
+Above figure illustrate the data processing pipeline and architecture of the proposed MVNet. (a) MVNet (without concentration level constraint) as a post processing tool for LOESS normalized spectra for regression modeling, (b) MVNet (with concentration level constraint) is used as post-processing tool for EMSC based baseline corrected spectra for regression modeling.
 
 A python implementation of MVNet using colab notebook is available @https://github.com/psychemistz/MVNet/blob/main/Minimum_Variance_SERS_Net_Laboratory_final.ipynb
 
