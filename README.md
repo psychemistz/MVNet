@@ -7,9 +7,9 @@ The proposed MVNet is a variation minimization method trained on a large-scale E
 ![](https://github.com/psychemistz/MVNet/blob/main/Figures/Figure2.png?raw=true)
 Above figure illustrate the data processing pipeline and architecture of the proposed MVNet. (a) MVNet (without concentration level constraint) as a post processing tool for LOESS normalized spectra for regression modeling, (b) MVNet (with concentration level constraint) is used as post-processing tool for EMSC based baseline corrected spectra for regression modeling.
 
-The python implementation of MVNet models using colab notebook are available @
-Model1: https://github.com/psychemistz/MVNet/blob/main/Minimum_Variance_SERS_Net_Laboratory_final.ipynb
-Model2: https://github.com/psychemistz/MVNet/blob/main/MVNet_Model2.ipynb
+The python implementation of MVNet models using colab notebook are available
+@Model1: https://github.com/psychemistz/MVNet/blob/main/Minimum_Variance_SERS_Net_Laboratory_final.ipynb
+@Model2: https://github.com/psychemistz/MVNet/blob/main/MVNet_Model2.ipynb
 
 ## Graphical illustration
 MVNet is an autoencoder-style neural network optimized for reducing inter-laboratory variation in SERS spectra. Its output offers improved latent representation compared to raw, unprocessed spectra, as demonstrated in the figure below.
