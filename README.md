@@ -1,6 +1,3 @@
-#How to use
-
-
 # MVNet
 Minimum Variance Representation Learning
 
@@ -23,3 +20,7 @@ MVNet output results in similar spectra for the same concentrations, albeit with
 <p align="center">
   <img src="https://github.com/psychemistz/MVNet/blob/main/Figures/Figure7.png?raw=true)">
 </p>
+
+## Linear Regression Analysis
+For linear regression analysis, please refer to Fornasaro et. al., Surface Enhanced Raman Spectroscopy for Quantitative Analysis: Results of a Large-Scale European Multi-Instrument Interlaboratory Study, Anal Chem, 2020. (https://doi.org/10.1021/acs.analchem.9b05658) 
+For analysis R codes, please contact to the professor Alois Bonifacio at University of Trieste. (email: abonifacio@units.it)
