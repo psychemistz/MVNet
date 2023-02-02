@@ -10,6 +10,8 @@ Above figure illustrate the data processing pipeline and architecture of the pro
 The links to the python implementation of MVNet models using colab notebook are available below
 
 Model1: @https://github.com/psychemistz/MVNet/blob/main/Minimum_Variance_SERS_Net_Laboratory_final.ipynb
+
+
 Model2: @https://github.com/psychemistz/MVNet/blob/main/MVNet_Model2.ipynb
 
 ## Graphical illustration
