@@ -1,8 +1,19 @@
-# MVNet
-Minimum Variance Representation Learning
+# Self-Supervised Learning for Inter-laboratory Variation Minimization in Surface Enhanced Raman Scattering (SERS) Spectroscopy
+
 
 ## Abstract
+
 Surface Enhanced Raman Scattering (SERS) spectroscopy is still considered poorly reproducible despite its numerous advantages and is not a sufficiently robust analytical technique for routine implementation outside of academia. In this article, we presented a self-supervised deep learning-based information fusion technique to minimize the variance in the SERS measurements of multiple laboratories for the same target analyte. In particular, a variation minimization model is designed called Minimum-Variance Network (MVNet). Furthermore, a linear regression model is trained using the output of the proposed MVNet. The proposed model showed improved performance in predicting the concentration of the unseen target analyte. The linear regression model trained on the output of the proposed model evaluated by several well-known metrics such as Root Mean Square Error of Prediction (RMSEP), BIAS, Standard Error of Prediction (SEP), and Coefficient of Determination (R^2). The Leave-One-LAB-Out Cross-Validation (LOLABO-CV) results showed that the MVNet also minimizes the variance of completely unseen laboratory datasets while improving the reproducibility and linear fit of the regression model.
+
+# How to use MVNet (Minimum Variance Representation Learning) Network?
+
+The proposed MVNet is a variation minimization method trained on a large-scale European multi-instrument interlaboratory SERS dataset [1]. The dataset is freely available at https://zenodo.org/record/3572359#.Y863YnbMJaQ
+
+## Cite: [1] Fornasaro, Stefano, Alsamad, Fatima, Baia, Monica, Batista de Carvalho, Luis A. E., Beleites, Claudia, Byrne, Hugh J., Chiadò, Alessandro, Chis, Mihaela, Chisanga, Malama, Daniel, Amuthachelvi, Dybas, Jakub, Eppe, Gauthier, Falgayrac, Guillaume, Faulds, Karen, Gebavi, Hrvoje, Giorgis, Fabrizio, Goodacre, Royston, Graham, Duncan, La Manna, Pietro, … Bonifacio, Alois. (2019). Dataset for Surface Enhanced Raman Spectroscopy for quantitative analysis: results of a large-scale European multi-instrument interlaboratory study [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3572359
+
+Data processing pipeline and architecture of the proposed MVNet. (a) MVNet (without concentration level constraint) as a post processing tool for LOESS normalized spectra for regression modeling, (b) MVNet (with concentration level constraint) is used as post-processing tool for EMSC based baseline corrected spectra for regression modeling.
+![](https://github.com/psychemistz/MVNet/blob/main/Figures/Figure2.png?raw=true)
+
 
 ## Graphical illustration
 MVNet is an autoencoder-style neural network optimized for reducing inter-laboratory variation in SERS spectra. Its output offers improved latent representation compared to raw, unprocessed spectra, as demonstrated in the figure below.
